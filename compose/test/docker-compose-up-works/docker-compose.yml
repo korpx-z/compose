@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+  java:
+    image: s390x/openjdk
+    command: java --version
